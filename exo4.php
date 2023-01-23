@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-    $a= readline('Entrez un nombre') ;
-    $b= readline('Entrez un nombre') ;
+    $a= readline ('Entrez un nombre:') ;
+    $b= readline ('Entrez un nombre') ;
     if ($a<$b){
         echo ("a est inferieur à b");
     }
